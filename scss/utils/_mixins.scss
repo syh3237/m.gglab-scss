@@ -1,0 +1,26 @@
+@mixin pos-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin pos-x{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin ellipse($line:1){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    @if($line > 1){
+        display: -webkit-box;
+        -webkit-line-clamp: $line;
+        -webkit-box-orient: vertical;
+    }
+    @else{
+        white-space: nowrap;
+    }
+}

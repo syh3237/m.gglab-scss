@@ -1,0 +1,44 @@
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.inner{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.wrapper{
+    min-width: 320px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    bottom: 0;
+    height: 40px;
+    span{
+        width: 10px;height: 10px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    .on{
+        background: #fff;
+    }
+}
+
+.link-detail{
+    display: block;
+    width: 125px;
+    height: 40px;
+    border: 1px solid #222;
+    font-size: 12px;
+    text-align: center;
+    line-height: 36px;
+}

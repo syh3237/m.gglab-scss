@@ -1,0 +1,43 @@
+.footer{
+    padding: 36px 10px 32px;
+    background: #aaa;
+    color: #fff;
+    .cs-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 100px;
+        margin: 0 auto;
+        border: 2px solid rgba($color: #fff, $alpha: 0.5);
+        padding: 13px 0 15px;
+        font-family: $font-en;
+        font-weight: 500;
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 12px;
+            margin: 7px 0 15px;
+        }
+        a{
+            font-size: 20px;
+        }
+    }
+    .group-info{
+        line-height: 19px;
+        font-size: 12px;
+        .logo{
+            width: 135px;
+            height: 17px;
+            margin: 42px 0 19px;
+        }
+        p{
+            margin-top: 18px;
+        }
+        span{
+            display: block;
+        }
+    }
+}

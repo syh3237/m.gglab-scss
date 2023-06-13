@@ -1,0 +1,35 @@
+.wrapper{
+    position: relative;
+}
+.header{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+    .inner{
+        height: 60px;
+    }
+    .group-header{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 8px;
+    }
+    .logo{
+        width: 133px;height: 17px;
+    }
+    .hamburger{
+        img{
+            width: 25px;
+            height: 19px;
+        }
+    }
+    .cart{
+        img{
+            width: 23px;
+            height: 23px;
+        }
+    }
+}
